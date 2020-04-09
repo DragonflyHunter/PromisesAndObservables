@@ -6,6 +6,11 @@ Download and install NodeJS from https://nodejs.org/en/download/
 
 Download and install Git from https://git-scm.com/downloads
 
+Verify that these are installed correctly:
+```
+npm -v
+git -v
+```
 ## Get the project from the repository
 ```
 git clone https://github.com/DragonflyHunter/PromisesAndObservables.git
