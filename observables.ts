@@ -1,5 +1,5 @@
-import { Observable, of, Subject, from, ConnectableObservable, fromEvent } from 'rxjs';
-import  {filter, map, reduce, multicast, tap, take }  from 'rxjs/operators';
+// import { Observable, of, Subject, from, ConnectableObservable, fromEvent } from 'rxjs';
+// import  {filter, map, reduce, multicast, tap, take }  from 'rxjs/operators';
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Basic case of observer/subscribe
@@ -66,13 +66,13 @@ import  {filter, map, reduce, multicast, tap, take }  from 'rxjs/operators';
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Piping to change/filter output of an observable
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-of(1,2,3,4,5)
-    .pipe(
-        filter(n => n % 2 === 0),           // only even numbers
-        map(n => n * n),                    // square
-        reduce((result, n) => result + n)   // sum
-    )
-    .subscribe(x => console.log(x));
+// of(1,2,3,4,5)
+//     .pipe(
+//         filter(n => n % 2 === 0),           // only even numbers
+//         map(n => n * n),                    // square
+//         reduce((result, n) => result + n)   // sum
+//     )
+//     .subscribe(x => console.log(x));
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
